@@ -188,23 +188,27 @@ body.lock {
 }
 
 .ring {
-  margin-top: 7%;
+  margin-top: 9%;
   margin-bottom: 3%;
+  width: 100%;
 }
 
 .rock {
   margin-top: 6%;
   margin-bottom: 1.5%;
+  width: 100%;
 }
 
 .antique {
-  margin-top: 12%;
+  margin-top: 28%;
   margin-bottom: 5.5%;
+  width: 100%;
 }
 
 .watch {
-  margin-top: 18%;
+  margin-top: 22%;
   margin-bottom: 12.5%;
+  width: 100%;
 }
 
 /* end main */
@@ -299,6 +303,10 @@ body.lock {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+}
+
+.flex-item-img {
+  width: 100%;
 }
 
 .flex-item-text-plus {
@@ -503,6 +511,10 @@ body.lock {
   justify-content: space-around;
 }
 
+.process-people-item__img {
+  width: 100%;
+}
+
 .process-people-item {
   display: flex;
   flex-direction: column;
@@ -628,6 +640,10 @@ body.lock {
 
 .footer-flex-map {
   width: 69%;
+}
+
+.footer-flex-map__img {
+  width: 100%;
 }
 
 .footer-flex-contacts {
