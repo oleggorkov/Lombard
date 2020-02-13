@@ -16,6 +16,17 @@
 
     <header class="header">
         <div class="header-flex container">
+            <a href="#" class="menu-burger">
+                <img src="img/buter.png" alt="burger">
+            </a>
+            <div class="menu-burger-drop">
+                <div class="burger-flex">
+                    <a href="#" class="burger-flex-link">Команда</a>
+                    <a href="#" class="burger-flex-link">Отзывы</a>
+                    <a href="#" class="burger-flex-link">Контакты</a>
+                    <a href="#" class="burger-flex-link">+7 495 123-45-67</a>
+                </div>
+            </div>
             <a href="#" class="header-flex-logo">
                 <img class="header-flex-logo__img" src="img/logo_uvelirsoft.png" alt="logo"/>
             </a>
@@ -62,25 +73,25 @@
             <div class="main-mark-title">Что вы хотите оценить?</div>
             <div class="main-mark-flex">
                 <a href="#" class="main-mark-flex__item">
-                    <div>
+                    <div class="block-ring">
                     <img src="img/ring.png" alt="ring" class="ring"/>
                     </div>
                     <span class="main-mark-flex__text">Ювелирное изделие</span>
                 </a>
                 <a href="#" class="main-mark-flex__item">
-                    <div>
+                    <div class="block-rock">
                     <img src="img/rock.png" alt="rock" class="rock"/>
                     </div>
                     <span class="main-mark-flex__text">Драгоценный камень</span>
                 </a>
                 <a href="#" class="main-mark-flex__item">
-                    <div>
+                    <div  class="block-antique">
                     <img src="img/antique.png" alt="antique" class="antique"/>
                     </div>
                     <span class="main-mark-flex__text">Антикварное изделие</span>
                 </a>
                 <a href="#" class="main-mark-flex__item">
-                    <div>
+                    <div class="block-watch">
                     <img src="img/watch.png" alt="watch" class="watch"/>
                     </div>
                     <span class="main-mark-flex__text">Швейцарские часы</span>
@@ -98,16 +109,22 @@
         <div class="mark-title">20 лет оцениваем</div>
         <div class="mark-advantage">
             <div class="mark-advantage-item">
+                <div class="mark-block-diamond">
                 <img src="img/icon-diamond-bw.png" alt="diamond" class="mark-advantage-item__img"/>
+                </div>
                 <div class="mark-advantage-item__text-diamond">Драгоценные камни</div>
             </div>
             <div class="mark-advantage-item">
+                <div class="mark-block-ring">
                 <img src="img/icon-ring-bw.png" alt="ring" class="mark-advantage-item__img"/>
+                </div>
                 <div class="mark-advantage-item__text">Ювелирные изделия</div>
             </div>
             <div class="mark-advantage-item">
+                <div class="mark-block-watch">
                 <img src="img/icon-watch-bw.png" alt="watch" class="mark-advantage-item__img"/>
-                <div class="mark-advantage-item__text">Швейцарские часы</div>
+                </div>
+                <div class="mark-advantage-item__text-watch">Швейцарские часы</div>
             </div>
         </div>
         <div class="mark-block">
@@ -139,6 +156,7 @@
                 </div>
             </div>
         </div>
+        <div class="flex-item-advantage__adaptive">Ваша выгода при обращении в Ломбард 32 - 24 060</div>
     </section>
 
     <!-- end mark -->
@@ -149,26 +167,36 @@
         <div class="container">
         <div class="cost-title">Что влияет на стоимость<br/>
             ювелирного изделия?</div>
-        <div class="cost-text">Рыночную стоимость украшения не всегда можно точно просчитать<br/>
-            математически, так как на нее могут влиять множество факторов.<br/>
+        <div class="cost-text">Рыночную стоимость украшения не всегда можно точно просчитать
+            математически, так как на нее могут влиять множество факторов.
             Ниже мы постарались собрать основные:</div>
         <div class="cost-flex">
             <div class="cost-flex-item">
                 <div class="cost-flex-item__title">Характеристики<br/> драгоценных камней </div>
-                <div class="cost-flex-item__text">Характеристики драгоценных камней в составе украшения прежде
+                <div class="cost-flex-item__text-diamond">Характеристики драгоценных камней в составе украшения прежде
                     всего влияют на итоговую стоимость, если они крупные либо редкие. Для бриллиантов
                     существует еженедельно обновляемый международный прейскурант цен RAPAPORT.
                     Цветные драгоценные камни оцениваются из опыта продаж похожих камней
                     на международных выставках.</div>
             </div>
                 <div class="cost-flex-item">
-                    <img src="img/diamonds.png" alt="diamonds"/>
+                    <div>
+                    <img src="img/diamonds.png" alt="diamonds" class="diamonds"/>
+                    </div>
+                    <div class="text-adaptive-diamond">Характеристики драгоценных камней в составе украшения прежде
+                        всего влияют на итоговую стоимость, если они крупные либо редкие. Для бриллиантов
+                        существует еженедельно обновляемый международный прейскурант цен RAPAPORT.
+                        Цветные драгоценные камни оцениваются из опыта продаж похожих камней
+                        на международных выставках.</div>
                 </div>
                 <div class="cost-flex-item">
-                    <img src="img/design.png" alt="design"/>
+                    <div class="title-adaptive-design">Дизайн</div>
+                    <div>
+                    <img src="img/design.png" alt="design" class="design"/>
+                    </div>
                 </div>
             <div class="cost-flex-item">
-                <div class="cost-flex-item__title">Дизайн</div>
+                <div class="cost-flex-item__title-design">Дизайн</div>
                 <div class="cost-flex-item__text">и качество исполнения ювелирного украшения прямо влияют
                     на его ликвидность на рынке, а значит и на цену.
                     Если ювелирное изделие имеет спрос у потенциальных покупателей, то его быстрее
@@ -176,7 +204,7 @@
             </div>
             <div class="cost-flex-item">
                 <div class="cost-flex-item__title">Бренд </div>
-                <div class="cost-flex-item__text">Украшения от всемирно известных ювелирных домов таких
+                <div class="cost-flex-item__text-brand">Украшения от всемирно известных ювелирных домов таких
                     как Cartier, Сhopard, Bulgari и пр. славятся отменным дизайном, идеальным качеством
                     исполнения и драгоценными камнями высоких характеристик. Но наценка ювелирных домов
                     "за бренд" составляет при продаже до 1000%, чего нет на вторичном рынке.
@@ -185,13 +213,25 @@
                     несколько дешевле последних.</div>
             </div>
             <div class="cost-flex-item">
+                <div>
                 <img src="img/brand.png" alt="brand" class="brand"/>
+                </div>
+                <div class="text-adaptive-brand">Украшения от всемирно известных ювелирных домов таких
+                    как Cartier, Сhopard, Bulgari и пр. славятся отменным дизайном, идеальным качеством
+                    исполнения и драгоценными камнями высоких характеристик. Но наценка ювелирных домов
+                    "за бренд" составляет при продаже до 1000%, чего нет на вторичном рынке.
+                    Поэтому приготовьтесь, что ваши украшения будут оценены в несколько раз дешевле той стоимости,
+                    которую вы за них заплатили при покупке. Старые коллекции, как правило, оцениваются
+                    несколько дешевле последних.</div>
             </div>
             <div class="cost-flex-item">
-                <img src="img/sertificate.png" alt="sertificate"/>
+                <div class="title-adaptive-sertificate">Сертификат</div>
+                <div>
+                <img src="img/sertificate.png" alt="sertificate" class="sertificate"/>
+                </div>
             </div>
             <div class="cost-flex-item">
-                <div class="cost-flex-item__title">Сертификат</div>
+                <div class="cost-flex-item__title-sertificate">Сертификат</div>
                 <div class="cost-flex-item__text">известной геммологической лаборатории на ювелирное украшение
                     или центральный камень(например в кольце) страхует вас от неправильной оценки при продаже.
                     Эталоном считаются экспертные заключения Геммологического Института Америки(GIA). В России
@@ -201,13 +241,19 @@
             </div>
             <div class="cost-flex-item">
                 <div class="cost-flex-item__title">Состояние</div>
-                <div class="cost-flex-item__text">ювелирного украшения влияет на его оценочную стоимость прежде всего
+                <div class="cost-flex-item__text-oldnew">ювелирного украшения влияет на его оценочную стоимость прежде всего
                     для украшений именитых брендов. Так как при предпродажной подготовке(в случае царапин, потертостей
                     и пр. на золоте или платине) могут пострадать клейма ювелирного дома, а без них продавать,
                     например, Cartier как Cartier невозможно.</div>
             </div>
             <div class="cost-flex-item">
-                <img src="img/oldnew.png" alt="oldnew"/>
+                <div>
+                <img src="img/oldnew.png" alt="oldnew" class="oldnew"/>
+                </div>
+                <div class="text-adaptive-oldnew">ювелирного украшения влияет на его оценочную стоимость прежде всего
+                    для украшений именитых брендов. Так как при предпродажной подготовке(в случае царапин, потертостей
+                    и пр. на золоте или платине) могут пострадать клейма ювелирного дома, а без них продавать,
+                    например, Cartier как Cartier невозможно.</div>
             </div>
         </div>
         </div>
@@ -272,8 +318,8 @@
         </div>
         <div class="process-smalltitle">Оценку проводят профессионалы</div>
         <div class="process-text">Мы сотрудничаем только со специалистами, аттестованными
-            в Геммологическом институте Америки (GIA), которые<br/> имеют опыт работы на изумрудной бирже,
-            производстве бриллиантов компании <span class="process-text-add">«АЛРОСА»</span>, отборе драгоценных<br/> камней на Шри-Ланке,
+            в Геммологическом институте Америки (GIA), которые имеют опыт работы на изумрудной бирже,
+            производстве бриллиантов компании <span class="process-text-add">«АЛРОСА»</span>, отборе драгоценных камней на Шри-Ланке,
             в Таиланде и других мировых месторождениях.</div>
         <div class="process-people">
             <div class="process-people-item">
@@ -384,24 +430,24 @@
             <img src="img/map.png" alt="map" class="footer-flex-map__img">
         </div>
         <div class="footer-flex-contacts">
-            <div class="footer-logo">
+            <a href="#" class="footer-logo">
                 <img src="img/logo_uvelirsoft.png" alt="logo">
-            </div>
+            </a>
             <div class="footer-flex-contacts__location">
-                <img src="img/location_icon.png" alt="location">
+                <img src="img/location_icon.png" alt="location" class="footer-flex-contacts__location-img">
                 <div class="footer-flex-contacts__text">Москва, Ленина 30/3, стр. 2 </div>
             </div>
             <div class="footer-flex-contacts__location">
-                <img src="img/time.png" alt="time">
+                <img src="img/time.png" alt="time" class="footer-flex-contacts__location-img">
                 <div class="footer-flex-contacts__text-time">10<sup>00</sup>–20<sup>00</sup> в будни<br/>
                     11<sup>00</sup>–18<sup>00</sup> в субботу</div>
             </div>
             <div class="footer-flex-contacts__location">
-                <img src="img/phone.png" alt="phone">
+                <img src="img/phone.png" alt="phone" class="footer-flex-contacts__location-img">
                 <a href="#" class="footer-flex-contacts__link">+7 495 123-45-67</a>
             </div>
             <div class="footer-flex-contacts__location">
-                <img src="img/email.png" alt="email">
+                <img src="img/email.png" alt="email" class="footer-flex-contacts__location-img">
                 <a href="#" class="footer-flex-contacts__link">lombard@lombard.ru</a>
             </div>
             <div class="footer-flex-message">
@@ -421,5 +467,7 @@
 
     <!-- end footer -->
 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/burger.js"></script>
 </body>
 </html>
